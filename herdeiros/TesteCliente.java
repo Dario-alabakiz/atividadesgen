@@ -1,7 +1,7 @@
 package ExerciciosPOO;
 
 public class TesteCliente {
-extend
+extends
 	public static void main(String[] args) {
 		
 		PessoaFis pf = new PessoaFis("Dario","18","Juscelino Kubtchek,3000","80","11993456403","96385274118","25.965.805-8");
