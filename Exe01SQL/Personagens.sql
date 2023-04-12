@@ -21,3 +21,10 @@ VALUE("Yasuo","Ritmo Fatal","Incendiar,Flash","3500","3");
 
 INSERT INTO tb_personagens(Personagem,Runa,Feitiços,Poder,Lane_id)
 VALUE("Fiora","Conquistar","Incendiar,Flash","2200","1");
+
+SELECT * FROM tb_personagens WHERE tb_personagens.Poder >= 2000;
+
+SELECT * FROM tb_personagens WHERE tb_personagens.Poder >= 1000 && tb_personagens.Poder <= 2000;
+
+select * from tb_personagens INNER JOIN tb_classes
+ON tb_personagens.Lane_id = tb_classes.id;
